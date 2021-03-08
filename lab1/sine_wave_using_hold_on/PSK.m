@@ -1,0 +1,1 @@
+t = 0 : 0.01 : 4f = 1A = 1y = A * sin(2 * pi * f * t)plot(t, y, 'b')hold ontitle('Sine wave in PSK')xlabel('time')ylabel('f(t)')grid ongrid minory2 = A2 * sin(2 * pi * f * t + 90 * pi / 180)plot(t, y2, 'r')

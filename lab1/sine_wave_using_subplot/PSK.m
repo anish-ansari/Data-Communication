@@ -1,0 +1,20 @@
+subplot(1, 2, 1)
+t = 0 : 0.01 : 4
+f = 1
+A = 1
+y = A * sin(2 * pi * f * t)
+plot(t, y, 'b')
+title('Sine wave in PSK')
+xlabel('time')
+ylabel('f(t)')
+grid on
+grid minor
+
+subplot(1, 2, 2)
+y2 = A * sin(2 * pi * f * t + 90 * pi / 180)
+plot(t, y2, 'r')
+title('Sine wave in PSK')
+xlabel('time')
+ylabel('f(t)')
+grid on
+grid minor
